@@ -20,7 +20,7 @@ def create_restaurant():
         name = request.form.get('name')
         description = request.form.get('description')
         site_url = request.form.get('site_url')
-
+        #Test comment
         return '{}, {}, {}' .format(name, description, site_url)
     return render_template('create_restaurant.html')
 
